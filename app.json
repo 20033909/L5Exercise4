@@ -19,10 +19,19 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.example.L5Exercise4Cats"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "067ebee4-872f-4f3d-82e6-8676a0d97938"
+      }
+    },
+    "plugins": [
+      "expo-font"
+    ]
   }
 }
